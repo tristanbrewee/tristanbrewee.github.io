@@ -154,6 +154,10 @@ button {
 	grid-template-columns: 25% 25% 25% 25%;
 }
 
+.project-name {
+	height: 2em;
+}
+
 .project-img {
 	width: 90%;
 	height: 75%;
