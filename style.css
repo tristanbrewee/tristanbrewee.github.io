@@ -4,7 +4,6 @@ body {
 }
 
 h1 {
-	/*color: #FF7048;*/
 	color: #AE240A;
 }
 
@@ -64,8 +63,6 @@ button {
 .personality-grid {
 	display: grid;
 	grid-template-columns: 50% 25% 25%;
-	/*background-color: #636363;*/
-	background-color: #AE240A;
 }
 
 .traits-header {
@@ -87,8 +84,7 @@ button {
 }
 
 .skills {
-	/*background-color: #636363;*/
-	background-color: #AE240A;
+
 }
 
 .skills-grid {
@@ -108,8 +104,7 @@ button {
 }
 
 .interests {
-	/*background-color: #636363;*/
-	background-color: #AE240A;
+
 }
 
 .links-a {
@@ -146,10 +141,6 @@ button {
 
 .poem {
 	display: none;
-}
-
-.colored-h {
-	color: black;
 }
 
 @media (max-width: 650px) {
