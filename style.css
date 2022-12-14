@@ -63,16 +63,32 @@ button {
 .personality-grid {
 	display: grid;
 	grid-template-columns: 50% 25% 25%;
+	padding-left: 0em;
 }
 
 .traits-header {
 	margin-bottom: 0em;
+	padding-bottom: 0em;
 }
 
 .traits-grid {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	padding-left: 0em;
+	margin-left: 0em;
+	margin-top: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+.cognitive {
+	padding-left: 0em;
+	padding-bottom: 0em;
+}
+
+.social {
+	padding-left: 0em;
+	padding-bottom: 0em;
 }
 
 .languages-table {
@@ -87,16 +103,31 @@ button {
 
 }
 
+.skills-header{
+	margin-bottom: 0em;
+}
+
 .skills-grid {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	padding-left: 0em;
+	padding-top: 0em;
 }
 
 .skills-table {
 	width: 65%;
 	margin-left: 0em;
 	padding-left: 0em;
+}
+
+.skills-programming {
+	padding-left: 0em;
+	padding-bottom: 0em;
+}
+
+.skills-technologies {
+	padding-left: 0em;
+	padding-bottom: 0em;
 }
 
 .history-table {
