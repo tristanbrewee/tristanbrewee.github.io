@@ -189,8 +189,20 @@ button {
 	padding-left: 0em;
 }
 
+.poems-tilte {
+	padding-left: 1em;
+	margin-bottom: 0em;
+}
+
 .poem {
 	display: none;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+.poem-container {
+	padding-top: 0em;
+	padding-bottom: 0em;
 }
 
 @media (max-width: 650px) {
