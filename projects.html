@@ -1,54 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Brewee Tristan - Projects</title>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-	<div class="container">
-		<div class="header">
-			<table>
-				<tr>
-					<td><a class="header-a" href="home.html">Home</a></td>
-					<td><a class="header-a" href="projects.html">Projects</a></td>
-					<td><a class="header-a" href="poems.html">Poems</a></td>
-					<td><a class="header-a" href="contact.html">Contact</a></td>
-				</tr>
-			</table>
-		</div>
-		<h1 class="projects-title">Projects</h1>
-		<div class="projects-grid">
-			<div class="project">
-				<h3 class="project-name">Mini CRM</h3>
-				<a href="https://github.com/tristanbrewee/miniCrm"><img class="project-img" src="data/crm.PNG"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Art Generator</h3>
-				<a href="https://github.com/tristanbrewee/ArtVersionOne"><img class="project-img" src="data/AG.png"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Primes (Java)</h3>
-				<a href="https://github.com/tristanbrewee/primes"><img class="project-img" src="data/PNT.jpg"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Primes (Python)</h3>
-				<a href="https://github.com/tristanbrewee/PrimesWithPython"><img class="project-img" src="data/PNT.jpg"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Game of Life</h3>
-				<a href="https://github.com/tristanbrewee/GameOfLife"><img class="project-img" src="data/GoL.PNG"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Loto Simulator</h3>
-				<a href="https://github.com/tristanbrewee/LottoSimulator"><img class="project-img" src="data/lotto.png"></a>
-			</div>
-			<div class="project">
-				<h3 class="project-name">Color Picker</h3>
-				<a href="https://github.com/tristanbrewee/ColorPicker"><img class="project-img" src="data/CW.png"></a>
-			</div>
-		</div>
-	</div>
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Welcome</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="home.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0 active" href="projectsOld.html">Projects</a>
+            <a class="nav-link fw-bold py-1 px-0 active" href="https://github.com/tristanbrewee">GitHub</a>
+            <a class="nav-link fw-bold py-1 px-0 active" href="creative.html">Creative</a>
+            <a class="nav-link fw-bold py-1 px-0 active" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Projects</h1>
+              <p class="lead">
+                On this page you can find some of my projects I've worked on.
+                some are still under construction.
+                Note that this is not all the projects I've ever worked on, only those worth mentioning.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="album py-5 ">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg aria-label="Placeholder: MiniCrm" class="bd-placeholder-image card-img-top"
+                  height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                  xmlns="http://www.w3.org/2000/svg">
+                    <title>Mini CRM</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Mini CRM
+                    </text>
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text">
+                      This project is a small scale CRM application.
+                      It features Spring Boot & Maven, among other libraries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg aria-label="Placeholder: GameOfLife" class="bd-placeholder-image card-img-top"
+                       height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <title>Game of Life</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Game of Life
+                    </text>
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a console app which simulates the Game of Life.
+                      For a full explanation on what this is all about, have a look at the project page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
 </body>
 </html>
